@@ -1,0 +1,1301 @@
+{
+  "checks": [
+    {
+      "check_id": "D3.2-reservoir",
+      "claim": "reservoir is exactly the admitted reachable-tail filter",
+      "evidence": {
+        "admitted": 3,
+        "certificate_digests": [
+          "bc9d622953ef91e55da8324526e230a19a0a131ff429be862029e0bf40d28187",
+          "c3d8aa5f1fb719a9fee136ea5ec73508446fde740c5fe8505a77abc70d444892",
+          "c7be217935e5c11ee2145f832e787055fb34a50938c6b1cfd46d9fc564e6fc70"
+        ],
+        "reachable": 4,
+        "recomputation_audit": {
+          "admitted_tail_set_exact": true,
+          "certificate_audits": [
+            {
+              "admitted": true,
+              "certificate_digest": "bc9d622953ef91e55da8324526e230a19a0a131ff429be862029e0bf40d28187",
+              "errors": [],
+              "ground_binding": true,
+              "shape_binding": true,
+              "source_binding": true,
+              "spec_binding": true,
+              "tail_reachable": true,
+              "valid": true,
+              "validity_binding": true,
+              "verdict_exactness": true,
+              "witness_exactness": true
+            },
+            {
+              "admitted": true,
+              "certificate_digest": "c3d8aa5f1fb719a9fee136ea5ec73508446fde740c5fe8505a77abc70d444892",
+              "errors": [],
+              "ground_binding": true,
+              "shape_binding": true,
+              "source_binding": true,
+              "spec_binding": true,
+              "tail_reachable": true,
+              "valid": true,
+              "validity_binding": true,
+              "verdict_exactness": true,
+              "witness_exactness": true
+            },
+            {
+              "admitted": true,
+              "certificate_digest": "c7be217935e5c11ee2145f832e787055fb34a50938c6b1cfd46d9fc564e6fc70",
+              "errors": [],
+              "ground_binding": true,
+              "shape_binding": true,
+              "source_binding": true,
+              "spec_binding": true,
+              "tail_reachable": true,
+              "valid": true,
+              "validity_binding": true,
+              "verdict_exactness": true,
+              "witness_exactness": true
+            }
+          ],
+          "errors": [],
+          "metadata_binding": true,
+          "ordered_unique": true,
+          "pairing_exact": true,
+          "snapshot_digest": "ebcce3f8128b02ab17a61465501dd87e4b9b981e5b496ddb4e11cc4c3a497257",
+          "suffix_binding": true,
+          "valid": true
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "D3.2a-prefix-fibre-geometry",
+      "claim": "G(R) is the exact prefix-indexed fibre family of the sealed reservoir",
+      "evidence": {
+        "geometry_commitment": "f98c1d06a5b754a9ab1baa26c67f01c632cce9237ebbd4b2f37dba29fc9e4e0f",
+        "prefix_fibres": [
+          [
+            {
+              "steps": []
+            },
+            [
+              {
+                "steps": [
+                  {
+                    "action": "a",
+                    "next_state": "good1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              },
+              {
+                "steps": [
+                  {
+                    "action": "b",
+                    "next_state": "good1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              },
+              {
+                "steps": [
+                  {
+                    "action": "b",
+                    "next_state": "robust1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            {
+              "steps": [
+                {
+                  "action": "a",
+                  "next_state": "good1"
+                }
+              ]
+            },
+            [
+              {
+                "steps": [
+                  {
+                    "action": "a",
+                    "next_state": "good1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            {
+              "steps": [
+                {
+                  "action": "a",
+                  "next_state": "good1"
+                },
+                {
+                  "action": "continue",
+                  "next_state": "terminal"
+                }
+              ]
+            },
+            [
+              {
+                "steps": [
+                  {
+                    "action": "a",
+                    "next_state": "good1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            {
+              "steps": [
+                {
+                  "action": "b",
+                  "next_state": "good1"
+                }
+              ]
+            },
+            [
+              {
+                "steps": [
+                  {
+                    "action": "b",
+                    "next_state": "good1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            {
+              "steps": [
+                {
+                  "action": "b",
+                  "next_state": "good1"
+                },
+                {
+                  "action": "continue",
+                  "next_state": "terminal"
+                }
+              ]
+            },
+            [
+              {
+                "steps": [
+                  {
+                    "action": "b",
+                    "next_state": "good1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            {
+              "steps": [
+                {
+                  "action": "b",
+                  "next_state": "robust1"
+                }
+              ]
+            },
+            [
+              {
+                "steps": [
+                  {
+                    "action": "b",
+                    "next_state": "robust1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            {
+              "steps": [
+                {
+                  "action": "b",
+                  "next_state": "robust1"
+                },
+                {
+                  "action": "continue",
+                  "next_state": "terminal"
+                }
+              ]
+            },
+            [
+              {
+                "steps": [
+                  {
+                    "action": "b",
+                    "next_state": "robust1"
+                  },
+                  {
+                    "action": "continue",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          ]
+        ],
+        "reservoir_commitment": "ebcce3f8128b02ab17a61465501dd87e4b9b981e5b496ddb4e11cc4c3a497257"
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "D3.3-P4.1",
+      "claim": "existential support is projected from the one-step fibres of G(R)",
+      "evidence": {
+        "existential_support": [
+          "a",
+          "b"
+        ],
+        "geometry_commitment": "f98c1d06a5b754a9ab1baa26c67f01c632cce9237ebbd4b2f37dba29fc9e4e0f",
+        "projected_actions": [
+          "a",
+          "b"
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "D3.4-T2",
+      "claim": "adaptive support uses every branch, current fibres and recursive K",
+      "evidence": {
+        "a_branch_validity": [
+          true,
+          false
+        ],
+        "adaptive_support": [
+          "b"
+        ],
+        "branch_counts": {
+          "a": 2,
+          "b": 2
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "H0-domain",
+      "claim": "H=0 is the terminal reservoir base and has no present support",
+      "evidence": {
+        "terminal_tails": [
+          {
+            "steps": []
+          }
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "T1-T4.6",
+      "claim": "seal-relative selection preserves original conditional fibres",
+      "evidence": {
+        "k0_support": [
+          "b"
+        ],
+        "k1_support": [
+          "continue"
+        ],
+        "k2_fibre": [
+          "7a8ae0dd3522baf51b969a7ea1751b0db2d753d425dfa183c9abe8a5908ea291"
+        ],
+        "origin_seal": "89466ef31521b8ef8f6a3e9b62a9484a352ab7051ddc82e745dd54bc88160e38"
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "T13-thin-temporal-restriction",
+      "claim": "admitted full tails retain identity and admissibility at every prefix",
+      "evidence": {
+        "audited_tails": [
+          "901568eda40bd401c00d97a8fe418045bff9b4b12728189993d8727f24c2ec78",
+          "c709b8903e44669f2649fe3bb9a749ae8245e7c028bae941829a5aa8a74edbed",
+          "7a8ae0dd3522baf51b969a7ea1751b0db2d753d425dfa183c9abe8a5908ea291"
+        ],
+        "depths": [
+          0,
+          1,
+          2
+        ],
+        "failures": []
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "D4.5-KSigma-recursion",
+      "claim": "seal-relative support requires recursive original-seal continuation",
+      "evidence": {
+        "child_support": "9e57c79002813e4e792987bfe46709c925f24a85b8356d8d471ead21d1cc4881",
+        "recursive_support": [],
+        "shallow_fibre": [
+          "0ce0dbb49279bde2b10c27ce456c98fe09dcc50b50a09f7f98779cc6393cecd4"
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "D4.5-adaptive-seal-separation",
+      "claim": "adaptive recomputation and original-seal fidelity remain distinct",
+      "evidence": {
+        "adaptive": [
+          "novel"
+        ],
+        "seal_relative": [
+          "old"
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "Theta-lineage",
+      "claim": "a changed construction specification cannot rescue an earlier seal",
+      "evidence": {
+        "original": "fd4c77140d17c21dc19681c7fd1399e52233909011b2a481dfa0cde3a26d7523",
+        "revised": "09608e96ee3138bfeb3bc91c70f946db2988e6a49f438a307430c8a1e5a78dd0"
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "T3-predicate-intervention",
+      "claim": "identity intervention changes the reservoir on an unmasked disagreement",
+      "evidence": {
+        "left": [
+          "780e95abe7dda22d80860d66cb037e966d6af35f66b7893e3be17ae1f855b310"
+        ],
+        "non_identity_factors_true": true,
+        "right": [
+          "c4c5c3557a2650b79f81da83e86a7fb4f5eb7d5db7f1c905f6c600ac3322387d"
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "D2.2a-boundary-compilation",
+      "claim": "B compiles source clauses by conjunction into the sole executable A",
+      "evidence": {
+        "left_boundary": {
+          "compiled_admissibility": {
+            "authority": "boundary-compiler",
+            "ground_refs": [
+              "personal-boundary",
+              "shared-terminal-boundary"
+            ],
+            "implementation_digest": "75cc4121641ca8089f424cf82a52d03cd069f949c3c72aabcc1852ec0776b3a7",
+            "rule_id": "admissibility:subject-u:1",
+            "version": "1"
+          },
+          "compiler_authority": "boundary-compiler",
+          "composition_relation": "source-separated-conjunction",
+          "sources": [
+            {
+              "authority": "personal-authority",
+              "clause": {
+                "authority": "personal-authority",
+                "cases": [
+                  {
+                    "allowed_action_paths": [
+                      [
+                        "L"
+                      ]
+                    ],
+                    "allowed_state_paths": [],
+                    "current_state": "shared",
+                    "horizon": 1
+                  }
+                ],
+                "clause_id": "personal-boundary",
+                "default_allow": true,
+                "version": "1"
+              },
+              "role": "subject",
+              "source_id": "personal-boundary",
+              "version": "1"
+            },
+            {
+              "authority": "shared-boundary-authority",
+              "clause": {
+                "authority": "shared-boundary-authority",
+                "cases": [
+                  {
+                    "allowed_action_paths": [],
+                    "allowed_state_paths": [
+                      [
+                        "terminal"
+                      ]
+                    ],
+                    "current_state": "shared",
+                    "horizon": 1
+                  }
+                ],
+                "clause_id": "shared-terminal-boundary",
+                "default_allow": true,
+                "version": "1"
+              },
+              "role": "shared",
+              "source_id": "shared-terminal-boundary",
+              "version": "1"
+            }
+          ],
+          "subject_id": "subject-u",
+          "version": "1"
+        },
+        "left_compiled_A": {
+          "authority": "boundary-compiler",
+          "ground_refs": [
+            "personal-boundary",
+            "shared-terminal-boundary"
+          ],
+          "implementation_digest": "75cc4121641ca8089f424cf82a52d03cd069f949c3c72aabcc1852ec0776b3a7",
+          "rule_id": "admissibility:subject-u:1",
+          "version": "1"
+        },
+        "right_boundary": {
+          "compiled_admissibility": {
+            "authority": "boundary-compiler",
+            "ground_refs": [
+              "personal-boundary",
+              "shared-terminal-boundary"
+            ],
+            "implementation_digest": "f83b44f20996fe0a936db1d92288ab92c4c025911adc7ec1c54c9561d9258996",
+            "rule_id": "admissibility:subject-u:2",
+            "version": "2"
+          },
+          "compiler_authority": "boundary-compiler",
+          "composition_relation": "source-separated-conjunction",
+          "sources": [
+            {
+              "authority": "personal-authority",
+              "clause": {
+                "authority": "personal-authority",
+                "cases": [
+                  {
+                    "allowed_action_paths": [
+                      [
+                        "R"
+                      ]
+                    ],
+                    "allowed_state_paths": [],
+                    "current_state": "shared",
+                    "horizon": 1
+                  }
+                ],
+                "clause_id": "personal-boundary",
+                "default_allow": true,
+                "version": "2"
+              },
+              "role": "subject",
+              "source_id": "personal-boundary",
+              "version": "2"
+            },
+            {
+              "authority": "shared-boundary-authority",
+              "clause": {
+                "authority": "shared-boundary-authority",
+                "cases": [
+                  {
+                    "allowed_action_paths": [],
+                    "allowed_state_paths": [
+                      [
+                        "terminal"
+                      ]
+                    ],
+                    "current_state": "shared",
+                    "horizon": 1
+                  }
+                ],
+                "clause_id": "shared-terminal-boundary",
+                "default_allow": true,
+                "version": "1"
+              },
+              "role": "shared",
+              "source_id": "shared-terminal-boundary",
+              "version": "1"
+            }
+          ],
+          "subject_id": "subject-u",
+          "version": "2"
+        },
+        "right_compiled_A": {
+          "authority": "boundary-compiler",
+          "ground_refs": [
+            "personal-boundary",
+            "shared-terminal-boundary"
+          ],
+          "implementation_digest": "f83b44f20996fe0a936db1d92288ab92c4c025911adc7ec1c54c9561d9258996",
+          "rule_id": "admissibility:subject-u:2",
+          "version": "2"
+        },
+        "source_conjunction_load_bearing": true
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "P4.1a-T14-boundary-fibre",
+      "claim": "an authorised B revision creates a different admissible region, which changes R, G(R) and existential support before execution",
+      "evidence": {
+        "identity_and_viability_unmasked": true,
+        "left_compiled_region": [
+          "780e95abe7dda22d80860d66cb037e966d6af35f66b7893e3be17ae1f855b310"
+        ],
+        "left_geometry": "80cc83cb107468c0e445137375f9e0703708c3a4c0c8f33387b48bf038d73550",
+        "left_subject_region": [
+          "84b0f54d3105bb3a1e00d9cc8ea025259f8aefbfe91b0f3cf7b626ae147f1ba9",
+          "780e95abe7dda22d80860d66cb037e966d6af35f66b7893e3be17ae1f855b310"
+        ],
+        "left_support": [
+          "L"
+        ],
+        "reachable_carrier": [
+          "84b0f54d3105bb3a1e00d9cc8ea025259f8aefbfe91b0f3cf7b626ae147f1ba9",
+          "780e95abe7dda22d80860d66cb037e966d6af35f66b7893e3be17ae1f855b310",
+          "fb5614b63c87ad482d3776d1b796a16d57ee3d31f141722d02dd59e0e69dab0b",
+          "c4c5c3557a2650b79f81da83e86a7fb4f5eb7d5db7f1c905f6c600ac3322387d"
+        ],
+        "right_compiled_region": [
+          "c4c5c3557a2650b79f81da83e86a7fb4f5eb7d5db7f1c905f6c600ac3322387d"
+        ],
+        "right_geometry": "22aa32c29012f2aa294b34af2aacb1e4a3bf193e261e9756507eb690b1e8ad91",
+        "right_subject_region": [
+          "fb5614b63c87ad482d3776d1b796a16d57ee3d31f141722d02dd59e0e69dab0b",
+          "c4c5c3557a2650b79f81da83e86a7fb4f5eb7d5db7f1c905f6c600ac3322387d"
+        ],
+        "right_support": [
+          "R"
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "P6.2a-cardinality-collision",
+      "claim": "equal reservoir cardinality does not determine G(R) or existential support",
+      "evidence": {
+        "left_cardinality": 1,
+        "left_geometry": [
+          {
+            "prefix": {
+              "steps": []
+            },
+            "tails": [
+              {
+                "steps": [
+                  {
+                    "action": "L",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "prefix": {
+              "steps": [
+                {
+                  "action": "L",
+                  "next_state": "terminal"
+                }
+              ]
+            },
+            "tails": [
+              {
+                "steps": [
+                  {
+                    "action": "L",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "left_support": [
+          "L"
+        ],
+        "right_cardinality": 1,
+        "right_geometry": [
+          {
+            "prefix": {
+              "steps": []
+            },
+            "tails": [
+              {
+                "steps": [
+                  {
+                    "action": "R",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "prefix": {
+              "steps": [
+                {
+                  "action": "R",
+                  "next_state": "terminal"
+                }
+              ]
+            },
+            "tails": [
+              {
+                "steps": [
+                  {
+                    "action": "R",
+                    "next_state": "terminal"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "right_support": [
+          "R"
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "P6.1-two-ledgers",
+      "claim": "equal sealed ledgers need not fix identity and equal identity need not fix the ledger",
+      "evidence": {
+        "same_identity_countermodel": {
+          "high_ledger": {
+            "authority": "budget-authority",
+            "capacity": 10,
+            "phi_load": 6,
+            "tau_b": 4,
+            "version": "1"
+          },
+          "high_tails": [
+            "b710278ab2171ec5218404f5882686ab101eb7c948cd33fab7fe215f6e00b914"
+          ],
+          "low_ledger": {
+            "authority": "budget-authority",
+            "capacity": 10,
+            "phi_load": 1,
+            "tau_b": 9,
+            "version": "1"
+          },
+          "low_tails": [
+            "b710278ab2171ec5218404f5882686ab101eb7c948cd33fab7fe215f6e00b914",
+            "fe89bd410163f66a27241bb70fe4fc9d744ed2b6c20c397de0bf3c12358353b3"
+          ],
+          "tau_values": [
+            9,
+            4
+          ]
+        },
+        "same_ledger_countermodel": {
+          "left_reservoir": "ac07df3532cc1a71324854bde889fda5ab6892adeb5b3051b4f7466af809cd67",
+          "left_support": [
+            "L"
+          ],
+          "right_reservoir": "517b988b8beef804a6351c04969ccdae1a826e5c3424e9c01da15ee14ee8e26f",
+          "right_support": [
+            "R"
+          ],
+          "sealed_ledger": {
+            "authority": "budget-authority",
+            "capacity": 7,
+            "phi_load": 2,
+            "tau_b": 5,
+            "version": "1"
+          },
+          "visible_state": "shared"
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "P6.2-nonmonotone-geometry",
+      "claim": "reservoir geometry can expand while the sealed remaining budget decreases",
+      "evidence": {
+        "current_actions": [
+          "hold"
+        ],
+        "current_ledger": {
+          "authority": "budget-authority",
+          "capacity": 7,
+          "phi_load": 2,
+          "tau_b": 5,
+          "version": "1"
+        },
+        "later_actions": [
+          "explore",
+          "hold"
+        ],
+        "later_ledger": {
+          "authority": "budget-authority",
+          "capacity": 7,
+          "phi_load": 3,
+          "tau_b": 4,
+          "version": "1"
+        },
+        "tau_current": 5,
+        "tau_later": 4
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "Val-assurance-context",
+      "claim": "assurance evidence binds the validity envelope and checked runtime regime",
+      "evidence": {
+        "runtime_regime": "fixture",
+        "validity": {
+          "not_after": 7,
+          "not_before": 0,
+          "regime": "fixture",
+          "version": "1"
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "P4.2-T5",
+      "claim": "task goals can change selection without changing the reservoir",
+      "evidence": {
+        "choice_goal_a": "a",
+        "choice_goal_b": "b",
+        "reservoir": "ebcce3f8128b02ab17a61465501dd87e4b9b981e5b496ddb4e11cc4c3a497257"
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "P5.4-T4",
+      "claim": "matched enforcement-verdict intervention changes realised execution",
+      "evidence": {
+        "admitted_trace": {
+          "action": "b",
+          "context_commitment": "64babe4ea3f65ebf10752c96321479b35cb9e090833427f3d14f4703b30da651",
+          "decision_commitment": "a888195d8e3bc888d1a1da5cfe3468baec7dae7f92211fc02929e996938d4e53",
+          "decision_version": "G_enf-v1",
+          "disturbance": "shock",
+          "enforcement_decision": "admit",
+          "executed": true,
+          "post_history": {
+            "initial_state": "s0",
+            "steps": [
+              {
+                "action": "b",
+                "next_state": "robust1"
+              }
+            ]
+          },
+          "pre_history": {
+            "initial_state": "s0",
+            "steps": []
+          },
+          "runtime_regime": "fixture",
+          "successor": "robust1",
+          "time": 0,
+          "token_commitment": "2483865dabfb6d8cf9583349a61425d151c3ceb3b951d9cc41335ea3f17361c5"
+        },
+        "authenticated_trace_ledger": {
+          "entries": [
+            {
+              "entry_commitment": "93a90f56278879f2b840243dafcaf822e6a6183097e16e0fb0c8925160e5407e",
+              "index": 0,
+              "previous_commitment": "0000000000000000000000000000000000000000000000000000000000000000",
+              "trace": {
+                "action": "b",
+                "context_commitment": "64babe4ea3f65ebf10752c96321479b35cb9e090833427f3d14f4703b30da651",
+                "decision_commitment": "0acd0baf7de1d2eb2b34a7188f330a075404c92c19412ac4ebb9e37532c36598",
+                "decision_version": "G_enf-v1",
+                "disturbance": "shock",
+                "enforcement_decision": "reject",
+                "executed": false,
+                "post_history": {
+                  "initial_state": "s0",
+                  "steps": []
+                },
+                "pre_history": {
+                  "initial_state": "s0",
+                  "steps": []
+                },
+                "runtime_regime": "fixture",
+                "successor": "robust1",
+                "time": 0,
+                "token_commitment": null
+              }
+            },
+            {
+              "entry_commitment": "ce54877d3f8ae15c7a6196420cb73345349827967339ffe87737c1ab3666ddf3",
+              "index": 1,
+              "previous_commitment": "93a90f56278879f2b840243dafcaf822e6a6183097e16e0fb0c8925160e5407e",
+              "trace": {
+                "action": "b",
+                "context_commitment": "64babe4ea3f65ebf10752c96321479b35cb9e090833427f3d14f4703b30da651",
+                "decision_commitment": "a888195d8e3bc888d1a1da5cfe3468baec7dae7f92211fc02929e996938d4e53",
+                "decision_version": "G_enf-v1",
+                "disturbance": "shock",
+                "enforcement_decision": "admit",
+                "executed": true,
+                "post_history": {
+                  "initial_state": "s0",
+                  "steps": [
+                    {
+                      "action": "b",
+                      "next_state": "robust1"
+                    }
+                  ]
+                },
+                "pre_history": {
+                  "initial_state": "s0",
+                  "steps": []
+                },
+                "runtime_regime": "fixture",
+                "successor": "robust1",
+                "time": 0,
+                "token_commitment": "2483865dabfb6d8cf9583349a61425d151c3ceb3b951d9cc41335ea3f17361c5"
+              }
+            }
+          ]
+        },
+        "blocked_trace": {
+          "action": "b",
+          "context_commitment": "64babe4ea3f65ebf10752c96321479b35cb9e090833427f3d14f4703b30da651",
+          "decision_commitment": "0acd0baf7de1d2eb2b34a7188f330a075404c92c19412ac4ebb9e37532c36598",
+          "decision_version": "G_enf-v1",
+          "disturbance": "shock",
+          "enforcement_decision": "reject",
+          "executed": false,
+          "post_history": {
+            "initial_state": "s0",
+            "steps": []
+          },
+          "pre_history": {
+            "initial_state": "s0",
+            "steps": []
+          },
+          "runtime_regime": "fixture",
+          "successor": "robust1",
+          "time": 0,
+          "token_commitment": null
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "D8.6-P8.7-T12",
+      "claim": "history-generated recurrence binds support evidence, authenticated decision, pre-action seal, exact append, successor interpretation, provenance and seal",
+      "evidence": {
+        "next_reservoir": "9c0968f02d902b4c71125bf6ecd2cad373a13e303b471602c4f1de60016b5735",
+        "post_history": {
+          "initial_state": "s0",
+          "steps": [
+            {
+              "action": "b",
+              "next_state": "robust1"
+            }
+          ]
+        },
+        "prior_history": {
+          "initial_state": "s0",
+          "steps": []
+        },
+        "recurrence": {
+          "assurance_context_commitment": "64babe4ea3f65ebf10752c96321479b35cb9e090833427f3d14f4703b30da651",
+          "enforcement_decision_commitment": "a888195d8e3bc888d1a1da5cfe3468baec7dae7f92211fc02929e996938d4e53",
+          "execution_trace_commitment": "bc4741862beceea57b4641ba8c3d48bbb08e7da26e245554bce2c960147c5dd2",
+          "link_commitment": "f7869598938b4088bbb609af69fc1d2361959d00993d60b36f5d95ffbc25011d",
+          "next_generator_input_commitment": "ffdee5c152f3c2a36bea060cfe51aeab27e3fc26357af42015a60cc74ab19c70",
+          "next_history_commitment": "b30fffc612bc135dec4bdc3c0ee9b1374f24e07f972e82da2140df3968956298",
+          "next_observation_commitment": "f38ba72b497b77734d0a4db09644bb2b65d3843c041c5d4e7636ba38459d11d6",
+          "next_reservoir_commitment": "9c0968f02d902b4c71125bf6ecd2cad373a13e303b471602c4f1de60016b5735",
+          "next_runtime_regime": "fixture",
+          "next_seal_commitment": "b94039799ef8ca4607b420a72e5be99e3f91bf3076e4c0a95794fb4add05d1b7",
+          "next_spec_commitment": "d7140a7aee12a41a50656ed5c4c02152083655daabbdba0bff64b914d2c9526b",
+          "prior_generator_input_commitment": "95d67fb65a95fdd1fafa97d7c222c0abfc520016bc673ee4089a444b6c26b185",
+          "prior_history_commitment": "8e88d3ba311b1885786d357e17d994a31005eb18a7f7ea22463972851c79c3fe",
+          "prior_observation_commitment": "066fd9c3bcfa57b03028d22e20521e11b67fd9d94f01791cf29a137ae94faf0c",
+          "prior_seal_commitment": "89466ef31521b8ef8f6a3e9b62a9484a352ab7051ddc82e745dd54bc88160e38",
+          "prior_spec_commitment": "51ad6c28e08603cdf98f7248dbac21e8e07736d97838253525a53e89919f3f44",
+          "provenance_link": "history-future:2895ab8272d95df6f4e10d629db8cf0b05e01f5dc485e1ffa795dce0d0ac7ea0"
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "F13-T10-active-support",
+      "claim": "empty active support invokes sealed safe semantics for empty R and non-empty R",
+      "evidence": {
+        "empty_r": {
+          "active_support": [],
+          "handler": "safe-mode",
+          "reservoir_size": 0
+        },
+        "handler_commitment": "4a24ad9b1bd621fa213be17d58af8ded061a2b444b31fae121e4dffee48a7582",
+        "nonempty_r_empty_support": {
+          "active_support": [],
+          "handler": "safe-mode",
+          "reservoir_size": 1
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "T5.3-T6",
+      "claim": "complete declared optimizer channel contains a target-changing fibre",
+      "evidence": {
+        "collisions": [
+          {
+            "left_case": "boundary-left",
+            "left_target": {
+              "admitted_action": "L"
+            },
+            "observation_commitment": "99b6e9dc07f7626f50c70a14da7924636941f21501cf44916068def54e0721fd",
+            "right_case": "boundary-right",
+            "right_target": {
+              "admitted_action": "R"
+            }
+          }
+        ]
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "T7-query-budget",
+      "claim": "bounded query access leaves more than one boundary hypothesis",
+      "evidence": {
+        "bounded": {
+          "budget_exhausted": true,
+          "events": [
+            {
+              "answer": true,
+              "index": 1,
+              "point": "p0"
+            },
+            {
+              "answer": false,
+              "index": 2,
+              "point": "p1"
+            }
+          ],
+          "exact_reconstruction": false,
+          "initial_hypotheses": 16,
+          "leakage_bits": 2.0,
+          "remaining_hypotheses": [
+            "B01",
+            "B05",
+            "B09",
+            "B13"
+          ]
+        },
+        "unbounded_fixture": {
+          "budget_exhausted": false,
+          "events": [
+            {
+              "answer": true,
+              "index": 1,
+              "point": "p0"
+            },
+            {
+              "answer": false,
+              "index": 2,
+              "point": "p1"
+            },
+            {
+              "answer": true,
+              "index": 3,
+              "point": "p2"
+            },
+            {
+              "answer": false,
+              "index": 4,
+              "point": "p3"
+            }
+          ],
+          "exact_reconstruction": true,
+          "initial_hypotheses": 16,
+          "leakage_bits": 4.0,
+          "remaining_hypotheses": [
+            "B05"
+          ]
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "Minerva-interpreter",
+      "claim": "observation-to-history interpretation is explicit and fails on ambiguity",
+      "evidence": {
+        "interpreter": {
+          "authority": "observation-authority",
+          "ground_refs": [
+            "fixture-ground-v1"
+          ],
+          "implementation_digest": "1e21e52ce2eb8b5991a3c85a93d58d0da07aee2f0304926aed435e5e80330ef8",
+          "rule_id": "interpreter:robust-branching",
+          "version": "1"
+        }
+      },
+      "status": "ESTABLISHED_ON_FINITE_FIXTURE"
+    },
+    {
+      "check_id": "scope-physical-retrocausality",
+      "claim": "absence of physical retrocausality beyond the declared finite dataflow",
+      "evidence": "requires external physical evidence",
+      "status": "NOT_MACHINE_DECIDABLE"
+    },
+    {
+      "check_id": "scope-personal-identity",
+      "claim": "adequacy of the declared predicate as real personal identity",
+      "evidence": "requires constitutive and empirical evidence",
+      "status": "NOT_MACHINE_DECIDABLE"
+    },
+    {
+      "check_id": "scope-consciousness-liveness",
+      "claim": "consciousness, life or IIC cycle reinitiation",
+      "evidence": "reservoir non-emptiness is intentionally not such a witness",
+      "status": "NOT_MACHINE_DECIDABLE"
+    },
+    {
+      "check_id": "scope-host-nonbypassability",
+      "claim": "host-level non-bypassability outside the declared Python API",
+      "evidence": "requires OS capability and deployment-topology evidence",
+      "status": "NOT_MACHINE_DECIDABLE"
+    },
+    {
+      "check_id": "scope-interpreter-evaluator-faithfulness",
+      "claim": "faithfulness of the live interpreter evaluator to its committed record",
+      "evidence": "commitments bind the interpreter record, not runtime evaluator behaviour",
+      "status": "NOT_MACHINE_DECIDABLE"
+    }
+  ],
+  "limitations": [
+    "finite exhaustive fixtures only",
+    "HMAC demonstrates shared-secret integrity, not public non-repudiation",
+    "declared commitments exclude uncommitted logical inputs, not hidden physical side channels",
+    "algorithmic cost is exponential in horizon and branching in the worst case",
+    "no claim of embodied or production instantiation"
+  ],
+  "mutation_survivors": [],
+  "mutations": [
+    {
+      "detected": true,
+      "mechanism": "terminal-only identity admits full tails but the restriction audit reports every rejected one-step prefix",
+      "mutation_id": "F18-prefix-verdict-inflation"
+    },
+    {
+      "detected": true,
+      "mechanism": "horizon-two admissibility admits full tails but the restriction audit reports every rejected horizon-one prefix",
+      "mutation_id": "F18-prefix-admissibility-inflation"
+    },
+    {
+      "detected": true,
+      "mechanism": "the declaration rejects a boundary from another version before A is used",
+      "mutation_id": "F11-boundary-version-mismatch"
+    },
+    {
+      "detected": true,
+      "mechanism": "exhausting the sealed wear ledger empties the recomputed reservoir, so the budget genuinely flows through the viability factor",
+      "mutation_id": "F7-budget-viability-coupling"
+    },
+    {
+      "detected": true,
+      "mechanism": "the first step is admitted, charging its wear into the successor ledger empties the next reservoir, and skipping the charge would wrongly readmit it",
+      "mutation_id": "F7-wear-accumulation"
+    },
+    {
+      "detected": true,
+      "mechanism": "a self-consistent but truncated prefix-fibre family cannot be rebound to the sealed reservoir",
+      "mutation_id": "F16-geometry-fibre-tamper"
+    },
+    {
+      "detected": true,
+      "mechanism": "the recurrence independently reconstructs the exact immutable append",
+      "mutation_id": "F17-history-append"
+    },
+    {
+      "detected": true,
+      "mechanism": "the realised event must carry the exact action bound by the authenticated decision",
+      "mutation_id": "F17-action-substitution"
+    },
+    {
+      "detected": true,
+      "mechanism": "the successor specification must bind the prior seal and executed trace",
+      "mutation_id": "F17-successor-provenance"
+    },
+    {
+      "detected": true,
+      "mechanism": "the recurrence authenticates its ADMIT decision independently of trace fields",
+      "mutation_id": "F17-decision-authentication"
+    },
+    {
+      "detected": true,
+      "mechanism": "the next interpreted history remains attached to its successor seal",
+      "mutation_id": "F17-successor-history"
+    },
+    {
+      "detected": true,
+      "mechanism": "the recurrence starts from the concrete pre-action observation preimage",
+      "mutation_id": "F17-prior-observation"
+    },
+    {
+      "detected": true,
+      "mechanism": "the certified generator interface rejects an uncommitted logical input",
+      "mutation_id": "F17-generator-input"
+    },
+    {
+      "detected": true,
+      "mechanism": "one commitment binds every recurrence field",
+      "mutation_id": "F17-link-commitment"
+    },
+    {
+      "detected": true,
+      "mechanism": "origin reservoir commitment mismatch",
+      "mutation_id": "F1-retrospective-reservoir"
+    },
+    {
+      "detected": true,
+      "mechanism": "certificate bundle changes the sealed reservoir commitment",
+      "mutation_id": "F16-certificate-verdict"
+    },
+    {
+      "detected": true,
+      "mechanism": "admission-token signature mismatch",
+      "mutation_id": "F16-token-signature"
+    },
+    {
+      "detected": true,
+      "mechanism": "token is bound to another action",
+      "mutation_id": "F16-token-action-binding"
+    },
+    {
+      "detected": true,
+      "mechanism": "token is bound to another assurance mode",
+      "mutation_id": "F16-cross-mode-token-reuse"
+    },
+    {
+      "detected": true,
+      "mechanism": "token is not valid at the enforcement time",
+      "mutation_id": "F16-expired-token"
+    },
+    {
+      "detected": true,
+      "mechanism": "runtime regime does not match assurance context",
+      "mutation_id": "F16-runtime-regime-mismatch"
+    },
+    {
+      "detected": true,
+      "mechanism": "assurance validity envelope does not cover enforcement time",
+      "mutation_id": "F16-validity-expiry"
+    },
+    {
+      "detected": true,
+      "mechanism": "a self-consistent but hand-built assurance context is refused a token because the anchored engine cannot reproduce it",
+      "mutation_id": "F10-handcrafted-assurance"
+    },
+    {
+      "detected": true,
+      "mechanism": "an assurance context whose geometry evidence is internally consistent but does not belong to the engine's reservoir is refused by recomputation, not by comparing two fields of the same payload",
+      "mutation_id": "F10-forged-self-consistent-geometry"
+    },
+    {
+      "detected": true,
+      "mechanism": "an assurance context naming a specification the engine never processed fails closed at issuance",
+      "mutation_id": "F10-unregistered-spec"
+    },
+    {
+      "detected": true,
+      "mechanism": "a realised prefix that is reachable but was never admitted into the original seal cannot be given seal-relative support at all",
+      "mutation_id": "F8-unsealed-prefix-support"
+    },
+    {
+      "detected": true,
+      "mechanism": "q+1 query is rejected",
+      "mutation_id": "F6-query-budget-overrun"
+    },
+    {
+      "detected": true,
+      "mechanism": "flipping only the verdict field of an authenticated REJECT does not produce an executable ADMIT: the tag covers the verdict",
+      "mutation_id": "F10-verdict-field-forgery"
+    },
+    {
+      "detected": true,
+      "mechanism": "executor authenticates the enforcer decision, not only its verdict field",
+      "mutation_id": "F10-forged-admit-decision"
+    },
+    {
+      "detected": true,
+      "mechanism": "authority-scoped replay state makes ADMIT one-shot across executors",
+      "mutation_id": "F10-decision-replay"
+    },
+    {
+      "detected": true,
+      "mechanism": "authenticated non-ADMIT decisions are one-shot across executors",
+      "mutation_id": "F10-reject-decision-replay"
+    },
+    {
+      "detected": true,
+      "mechanism": "append-only trace lineage binds order, history continuity and trace bytes",
+      "mutation_id": "F10-trace-lineage-mutation"
+    },
+    {
+      "detected": true,
+      "mechanism": "certificate verifier recomputes sources, grounds, witnesses and verdict",
+      "mutation_id": "F16-certificate-recomputation"
+    },
+    {
+      "detected": true,
+      "mechanism": "seal create rejects history that is not Int(observation)",
+      "mutation_id": "F16-unattested-history-seal"
+    },
+    {
+      "detected": true,
+      "mechanism": "observation preimage must match the sealed observation commitment",
+      "mutation_id": "F16-observation-preimage-check"
+    },
+    {
+      "detected": true,
+      "mechanism": "commitment consistency alone admits a fully recomputed seal; only the observation preimage separates it from the authentic one",
+      "mutation_id": "F16-recomputed-seal-forgery"
+    },
+    {
+      "detected": true,
+      "mechanism": "root history is not the unique interpretation of the supplied observation",
+      "mutation_id": "F16-interpretation-drift-check"
+    }
+  ],
+  "report_sha256": "e62f32e6290103219572a89d5ede24add2cc4f8afc8e0c3977a064a9bbd71d95",
+  "schema": "ncnc-reference-report-v6",
+  "successful": true
+}

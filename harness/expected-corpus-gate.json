@@ -1,0 +1,167 @@
+{
+  "checks": [
+    {
+      "check_id": "five-link-architecture-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "formal-object-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "formal-thin-restriction-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "formal-boundary-fibre-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "formal-recurrence-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "formal-domain-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "formal-unmasked-intervention",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "formal-active-support-handler",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "bridge-mirror-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "pair-map-code-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "scope-no-retrocausal-inflation",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "scope-no-topology-inflation",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "readme-entrypoint-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "readme-thin-restriction-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-manifest-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-bundle-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "verification-map-enforcement-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-certificate-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-clause-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-dynamics-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-boundary-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-geometry-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-boundary-scenario-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-ledger-scenario-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-enforcement-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-k-sigma-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-recurrence-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-access-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "harness-report-contract",
+      "detail": "present",
+      "passed": true
+    },
+    {
+      "check_id": "stale-language-residue",
+      "detail": "absent",
+      "passed": true
+    },
+    {
+      "check_id": "logical-quote-punctuation",
+      "detail": "absent",
+      "passed": true
+    },
+    {
+      "check_id": "public-control-characters",
+      "detail": "absent",
+      "passed": true
+    }
+  ],
+  "report_sha256": "51ddcb2df50de71378a3ad9fc3ce230391896e3a7db5614956903c9913859951",
+  "schema": "ncnc-corpus-gate-v6",
+  "successful": true
+}
