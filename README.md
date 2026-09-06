@@ -35,6 +35,28 @@ A long-lived system is normally organised in causal order: observe the present, 
 | `PETRONUS-Research-public-key.asc` | Public key for verifying the signatures. |
 | `LICENSE` | CC BY-NC-ND 4.0. |
 
+### Run it
+
+Python 3, standard library only, no third-party dependencies. From `harness/`:
+
+```
+py -3 check_all.py --format text
+```
+
+**What a green run establishes.** A conforming run reports `successful: true` and
+exits 0, covering the unit and mutation suites, the executable reference report and
+the cross-artifact drift fence: each formal object is evaluated on finite fixtures,
+and breaking the specific model fact a check names turns that check red.
+
+**What it does not establish.** In the harness's own words: "The code establishes
+claims only on its declared finite fixtures. It does not establish physical
+retrocausality, the adequacy of a declared predicate as real personal identity,
+consciousness" ([`harness/README.md`](harness/README.md), Scope boundary). The
+enumeration makes the quantifiers visible; it does not make them true of anything
+outside the fixtures.
+
+---
+
 ## Verification harness
 
 The companion is a finite reference instrument, standard library only, no third-party dependencies. It constructs and independently rechecks the complete admitted reservoir, keeps the three assurance modes separate, authenticates the path from evidence to execution, models confined access and bounded reconstruction, and emits a deterministic report.
